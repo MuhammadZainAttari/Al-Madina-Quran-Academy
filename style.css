@@ -1,0 +1,475 @@
+ html {
+    scroll-behavior: smooth;
+}
+ body{
+    font-family: Arial;
+    background-color:#f4f4f4;
+    text-align:center;
+}
+
+header{
+    background:#2c7a7b;
+    color:white;
+    padding:20px;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+nav{
+    background:#333;
+    padding:10px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:#ffd700;
+}
+ #admission{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+form input, form textarea{
+    width:80%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:10px 20px;
+    background:#2c7a7b;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1f5f61;
+}
+button:hover {
+  background-color: #2e7d32; /* Darker Green */
+  transform: scale(1.05); /* Thora sa bada hoga */
+  transition: 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* WhatsApp Floating Button Styling */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    transform: scale(1.1); /* Hover karne par thora bada hoga */
+    color: white;
+}
+
+/* Mobile par sirf icon dikhane ke liye (Optional) */
+@media screen and (max-width: 480px) {
+    .whatsapp-float span {
+        display: none; /* Mobile par 'Chat with us' chupa dega sirf icon rahega */
+    }
+    .whatsapp-float {
+        padding: 10px;
+        border-radius: 50%;
+    }
+}
+/* Form Section Design */
+.form-section {
+    padding: 60px 20px;
+    background-color: #f4f7f6; /* Halka grey background */
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border-top: 5px solid #1a4d4e; /* Islamic Green Border */
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #1a4d4e;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+.input-group input:focus, .input-group textarea:focus {
+    border-color: #1a4d4e;
+    box-shadow: 0 0 8px rgba(26, 77, 78, 0.2);
+}
+
+/* Submit Button Upgrade */
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #1a4d4e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.submit-btn:hover {
+    background-color: #ffd700;
+    color: #1a4d4e;
+    transform: translateY(-2px);
+}
+.classes-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section-title {
+    color: #1a4d4e;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Grid System */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Individual Card Styling */
+.course-card {
+    background: #fdfdfd;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.course-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    color: #1a4d4e;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Hover Effect - Card uth kar upar ayega */
+.course-card:hover {
+    transform: translateY(-10px);
+    border-color: #1a4d4e;
+    box-shadow: 0 10px 25px rgba(26, 77, 78, 0.15);
+} .main-footer {
+    background-color: #1a4d4e;
+    color: white;
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffd700;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}.about-section-upgrade {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Mobile par upar niche ho jayega */
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: #ffd700;
+    color: #1a4d4e;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.about-text {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.sub-heading {
+    color: #1a4d4e;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.about-features {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.about-features li {
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #444;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #1a4d4e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #ffd700;
+    color: #1a4d4e;
+} .about-section-upgrade {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Mobile par upar niche ho jayega */
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: #ffd700;
+    color: #1a4d4e;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.about-text {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.sub-heading {
+    color: #1a4d4e;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.about-features {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.about-features li {
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #444;
+}
+
+.read-more-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #1a4d4e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #ffd700;
+    color: #1a4d4e;
+} nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative; /* Line ko position karne ke liye */
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+/* Hover par text ka rang badalna */
+nav ul li a:hover {
+    color: #ffd700; /* Gold Color */
+}
+
+/* Link ke niche wali line ka effect */
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffd700;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%; /* Mouse le jane par line poori ho jayegi */
+}section {
+    scroll-margin-top: 80px; /* Isse header section ke upar nahi charhay ga */
+}
